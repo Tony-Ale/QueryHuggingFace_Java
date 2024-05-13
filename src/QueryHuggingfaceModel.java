@@ -16,7 +16,6 @@ public final class QueryHuggingfaceModel {
     protected String API_URL;
 
 
-    // i created a private constructor so that other classes cant create a new object of this class
     public QueryHuggingfaceModel(String API_URL, String API_TOKEN){
         this.API_URL = API_URL;
         this.API_TOKEN = API_TOKEN;
